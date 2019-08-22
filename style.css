@@ -1,0 +1,185 @@
+* {
+    margin: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.header-container {
+    color: whitesmoke;
+    background-color: #0b0c19;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.content-container {
+    color: black;
+    background-color: #1F2833;
+    padding: 5px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    background-color: black;
+}
+
+.photo-container {
+    border: 1px solid black;
+    background-color: #0b0c19;
+    width: 440px;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-container {
+    border: 1px solid black;
+    color: whitesmoke;
+    background-color: rgba(251, 56, 56, 0.541);
+    width: 440px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    padding: 5px;
+    border-bottom: 4px solid black;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.content {
+    padding: 5px;
+    border: 4px solid black;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skills {
+    padding: 20px;
+}
+
+.nameJob {
+    display: flex;
+    align-items: center;
+}
+
+.mediaIcons-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.repo-container {
+    background-color: #1F2833;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#repo {
+    background-color: rgb(35, 39, 44);
+    border: 4px solid black;
+    Padding: 15px;
+    width: 900px;
+    height: 150px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.repo-content {
+    width: 450px;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.icon {
+    width: 60px;
+    height: auto;
+}
+
+.icon-container {
+    width: 63px;
+    height: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#default-image {
+    width: 400px;
+    height: auto;
+}
+
+ul {
+    font-size: 30px;
+}
+
+.footer {
+    color: whitesmoke;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #0b0c19;
+}
+
+.footer-content {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.repoLinks {
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:hover {
+    color: skyblue;
+}
+
+.contact {
+    width: 850px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+}
+
+.footer-icon {
+    width: auto;
+    height: 35px;
+}
